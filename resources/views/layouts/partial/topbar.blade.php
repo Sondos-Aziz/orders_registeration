@@ -919,7 +919,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product9.jpg" title="">
+															<img src="{{asset('media/products/product9.jpg')}}" title="">
 														</a>
 													</div>
 												</div>
@@ -941,7 +941,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product13.jpg" title="">
+															<img src="{{asset('media/products/product13.jpg')}}" title="">
 														</a>
 													</div>
 												</div>
@@ -963,7 +963,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product16.jpg" title="">
+															<img src="{{asset('media/products/product16.jpg')}}" title="">
 														</a>
 													</div>
 												</div>
@@ -985,7 +985,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product15.jpg" title="" alt="">
+															<img src="{{asset('media/products/product15.jpg')}}"  title="" alt="">
 														</a>
 													</div>
 												</div>
@@ -1034,26 +1034,26 @@
 							<div class="kt-header__topbar-item kt-header__topbar-item--langs">
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">
 									<span class="kt-header__topbar-icon">
-										<img class="" src="assets/media/flags/020-flag.svg" alt="" />
+										<img class="" src="{{asset('media/flags/020-flag.svg')}}"  alt="" />
 									</span>
 								</div>
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround">
 									<ul class="kt-nav kt-margin-t-10 kt-margin-b-10">
 										<li class="kt-nav__item kt-nav__item--active">
 											<a href="#" class="kt-nav__link">
-												<span class="kt-nav__link-icon"><img src="assets/media/flags/020-flag.svg" alt="" /></span>
+												<span class="kt-nav__link-icon"><img src="{{asset('media/flags/020-flag.svg')}}"  alt="" /></span>
 												<span class="kt-nav__link-text">English</span>
 											</a>
 										</li>
 										<li class="kt-nav__item">
 											<a href="#" class="kt-nav__link">
-												<span class="kt-nav__link-icon"><img src="assets/media/flags/016-spain.svg" alt="" /></span>
+												<span class="kt-nav__link-icon"><img src="{{asset('media/flags/016-spain.svg')}}"  alt="" /></span>
 												<span class="kt-nav__link-text">Spanish</span>
 											</a>
 										</li>
 										<li class="kt-nav__item">
 											<a href="#" class="kt-nav__link">
-												<span class="kt-nav__link-icon"><img src="assets/media/flags/017-germany.svg" alt="" /></span>
+												<span class="kt-nav__link-icon"><img src="{{asset('media/flags/017-germany.svg')}}" alt="" /></span>
 												<span class="kt-nav__link-text">German</span>
 											</a>
 										</li>
@@ -1069,7 +1069,7 @@
 									<div class="kt-header__topbar-user">
 										<span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
 										<span class="kt-header__topbar-username kt-hidden-mobile">Sean</span>
-										<img class="kt-hidden" alt="Pic" src="assets/media/users/300_25.jpg" />
+										<img class="kt-hidden" alt="Pic" src="{{asset('media/users/300_25.jpg')}}" />
 
 										<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 										<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold">S</span>
@@ -1078,9 +1078,9 @@
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-xl">
 
 									<!--begin: Head -->
-									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/media/misc/bg-1.jpg)">
+									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url({{asset('media/misc/bg-1.jpg')}})">
 										<div class="kt-user-card__avatar">
-											<img class="kt-hidden" alt="Pic" src="assets/media/users/300_25.jpg" />
+											<img class="kt-hidden" alt="Pic" src="{{asset('media/users/300_25.jpg')}}" />
 
 											<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 											<span class="kt-badge kt-badge--lg kt-badge--rounded kt-badge--bold kt-font-success">S</span>
