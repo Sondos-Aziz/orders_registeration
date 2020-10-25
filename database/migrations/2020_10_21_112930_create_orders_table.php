@@ -26,6 +26,17 @@ class CreateOrdersTable extends Migration
             $table->integer("option2"); // diploma table 
             $table->boolean("status"); 
             $table->integer("employee_id");
+            $table->date('from')->nullable();
+            $table->date('to')->nullable();
+            $table->integer("organiziation_id")->nullable(); // paymentType table 
+            $table->integer("volunteering_id")->nullable(); // diploma table 
+
+            $table->date('reservationFeesDate');
+            $table->double("reservationFees"); // currancy table 
+            $table->integer("reservationFeesCurrancy_id"); // currancy table 
+            $table->string("orderPaper"); 
+            $table->string("notices"); 
+
             $table->timestamps();
         });
     }

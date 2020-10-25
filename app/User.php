@@ -46,13 +46,23 @@ class User extends Authenticatable
     }
 
     public function qualification (){
-        $this->hasOne('App\Models\Qualification');
+        $this->belongsToMany('App\Models\Qualification','user_qualification','user_id','qualification_id','id','id');
+    }
+    
+    public function practicalExperiences (){
+        $this->belongsToMany('App\Models\PracticalExperiences');
     }
 
+    public function trainingCourses (){
+        $this->belongsToMany('App\Models\TrainingCourses');
+    }
     public function job (){
         $this->hasOne('App\Models\Job');
+    } 
+    public function socialStatus (){
+        $this->hasOne('App\Models\SocialStatus');
     }
-
+    
     public function specialization (){
         $this->hasOne('App\Models\Specialization');
     }
@@ -65,6 +75,11 @@ class User extends Authenticatable
         $this->hasOne('App\FamilyType');
     }
 
-   
+    public function users(){
+        $this->belongsToMany('App\User');
+    }
 
+    public function diplomes(){
+        $this->belongsToMany('App\Models\Diploma');
+    }
 }

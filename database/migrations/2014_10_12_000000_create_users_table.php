@@ -28,15 +28,29 @@ class CreateUsersTable extends Migration
             $table->string('slug_ar');
             $table->integer('identity')->unique();
             $table->date('dateOfBirth');
-            $table->integer('qualification_id')->unique(); // reference to qualification table 
-            $table->integer('currentJob_id')->nullable()->nuique();// reference to Current_job table 
-            $table->integer('specialization_id')->unique();   // reference to Specialization table    
+            // $table->integer('qualification_id')->unique(); // reference to qualification table 
+            $table->integer('currentJob_id')->nullable();// reference to Current_job table 
+            $table->integer('specialization_id');   // reference to Specialization table    
              $table->string('workplace')->nullable();   
              $table->integer('mobile')->unique();
              $table->integer('mobileAlternative')->unique()->nullable();
              $table->integer('familyType_id')->nullable(); // reference to familyType table 
              $table->integer('neighborhoods_id');  // references to neighborhoods
              $table->string('otherPlace')->nullable();   
+             $table->string('nationality')->nullable();   
+             $table->integer('social_status_id')->nullable();   
+             $table->string('sex')->nullable();   
+             $table->integer('individuals_no')->nullable();   
+             $table->integer('placeOfBirth_id')->nullable();    // CITY table
+
+
+
+
+
+             
+
+
+
             $table->rememberToken();
             $table->timestamps();
         });

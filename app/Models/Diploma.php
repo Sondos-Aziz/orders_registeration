@@ -18,4 +18,17 @@ class Diploma extends Model
     public function currancy(){
         $this->hasOne('App\Models\Currancy');
     }
+
+    public function users(){
+        $this->belongsToMany('App\User');
+    }
+
+    public function courses(){
+        $this->belongsToMany('App\Models\Course');
+    }
+    
+    public function targeGroups(){
+        $this->belongsToMany('App\Models\TargetGroup');
+    }
+
 }

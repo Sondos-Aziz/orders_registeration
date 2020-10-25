@@ -21,6 +21,21 @@ class CreateDiplomasTable extends Migration
             $table->integer('orderFeesCurrancy_id'); // Currancy table 
             $table->integer('diplomaFeesCurrancy_id');
             $table->integer('diplomaType_id'); //diploma_types
+            $table->integer('hour');
+            $table->integer('meetingNoPerWeek');
+            $table->integer('daysPerMeeting');
+            $table->longText('target');
+            $table->longText('Skills');
+            $table->longText('fieldsOfGraduation');
+            $table->string('place');
+            $table->longText('features');
+            $table->longText('regRequirments');
+            $table->longText('credits'); //اللاعتمادات
+            /* for course الدورات */
+            $table->longText('intro');
+            $table->longText('content');
+            $table->longText('trainningCourse');
+          
             $table->timestamps();
         });
     }

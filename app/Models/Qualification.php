@@ -11,7 +11,10 @@ class Qualification extends Model
     ];
 
     public function users(){
-        $this->hasMany('App\User');
+        $this->belongsToMany('App\User','user_qualification','qualification_id','user_id','id','id');
     }
-    
+
+    public function specialization(){
+        $this->hasOne('App\Models\Specialization');
+    }
 }

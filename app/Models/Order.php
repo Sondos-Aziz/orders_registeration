@@ -39,4 +39,9 @@ class Order extends Model
     public function paymentType(){
         $this->hasOne('App\Models\PaymentType');
     }
+
+    public function organization(){
+        $this->hasOne('App\Models\Organization');
+    }
+    
 }
