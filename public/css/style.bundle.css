@@ -33642,7 +33642,7 @@ body {
     .kt-header--fixed.kt-subheader--fixed.kt-subheader--enabled .kt-wrapper {
       padding-top: 119px; }
     .kt-aside--fixed .kt-wrapper {
-      padding-left: 265px; }
+      padding-right: 265px; }
     .kt-aside--fixed.kt-aside--minimize .kt-wrapper {
       padding-left: 70px;
       -webkit-transition: all 0.3s ease;
@@ -33716,6 +33716,7 @@ body {
       top: 0;
       right:0;
       left: 0;
+      padding: 0 28px;
       z-index: 97; }
     .kt-aside--enabled .kt-header.kt-header--fixed {
       right: 265px; }
@@ -36378,7 +36379,7 @@ body {
     height: 60px;
     bottom: 0;
     right: 0;
-    left: 265px;
+    right: 265px;
     -webkit-box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
     box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13); }
   .kt-aside--minimize-hover.kt-footer--fixed .kt-footer,
