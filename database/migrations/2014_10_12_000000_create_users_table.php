@@ -43,14 +43,6 @@ class CreateUsersTable extends Migration
              $table->integer('individuals_no')->nullable();   
              $table->integer('placeOfBirth_id')->nullable();    // CITY table
 
-
-
-
-
-             
-
-
-
             $table->rememberToken();
             $table->timestamps();
         });

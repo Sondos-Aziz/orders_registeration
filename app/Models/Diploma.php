@@ -8,6 +8,8 @@ class Diploma extends Model
 {
     protected $fillable = [
         'name','orderFees','diplomaFees','orderFeesCurrancy_id','diplomaFeesCurrancy_id','diplomaType_id',
+        'hour','meetingNoPerWeek','daysPerMeeting','target','Skills','fieldsOfGraduation','place','features',
+        'regRequirments','credits','intro','content','trainningCourse',
         
     ];
 

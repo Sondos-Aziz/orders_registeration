@@ -7,9 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Qualification extends Model
 {
     protected $fillable = [
-        'name'
+        'name','avg','studyYears','specialization_id',
     ];
-
     public function users(){
         $this->belongsToMany('App\User','user_qualification','qualification_id','user_id','id','id');
     }

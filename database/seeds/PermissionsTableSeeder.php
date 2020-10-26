@@ -57,7 +57,6 @@ class PermissionsTableSeeder extends Seeder
            'slug_ar' =>'شيماء عزيز حرب',
            'identity'=>'012345678',
            'dateOfBirth'=>Carbon::parse('1998-01-01'),
-           'qualification_id'=>'1',
            'currentJob_id'=>'1',
            'specialization_id'=>'1',
            'Workplace'=>'همص',
@@ -66,6 +65,12 @@ class PermissionsTableSeeder extends Seeder
            'familyType_id'=>'1',
            'neighborhoods_id'=>'1',
            'otherPlace'=>'أخرى',
+           'nationality'=>'فلسطينية',
+           'social_status_id'=>'1',
+           'sex'=>'انثى',
+           'individuals_no'=>'5',
+           'placeOfBirth_id'=>'1',
+
        ]);
 
     //    $user->assignRole($role1);

@@ -9,7 +9,11 @@ class Order extends Model
     protected $fillable = [
         'user_id','diploma_id','knowledgeWays_id','total','totalCurrancy_id','desire_id','option1',
         'option2','status','employee_id','paymentType_id',
+        'from','to','organiziation_id','volunteering_id','reservationFeesDate','reservationFees',
+        'reservationFeesCurrancy_id','orderPaper','notices',
+   
     ];
+
 
     public function diplpma()
     {

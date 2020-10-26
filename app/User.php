@@ -19,10 +19,11 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'email', 'password','firstName_ar','middleName_ar','lastName_ar','firstName_en','middleName_en','lastName_en',
-        'slug_en','slug_ar','identity','dateOfBirth','qualification_id','currentJob_id','specialization_id','workplace',
-        'mobile','mobileAlternative','familyType_id','neighborhoods_id','otherPlace'
-    ];
+        'slug_en','slug_ar','identity','dateOfBirth','currentJob_id','specialization_id','workplace',
+        'mobile','mobileAlternative','familyType_id','neighborhoods_id','otherPlace',
+        'nationality','social_status_id','sex','individuals_no','placeOfBirth_id',
 
+    ];
     /**
      * The attributes that should be hidden for arrays.
      *
