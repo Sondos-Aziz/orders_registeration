@@ -4,14 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Course extends Model
+class RegestrationWay extends Model
 {
-
     protected $fillable = [
         'name',
     ];
 
-    public function diplomes(){
-        $this->belongsToMany('App\Models\Diploma');
+
+    public function orders(){
+        $this->hasMany('App\Models\Order');
     }
+    
 }

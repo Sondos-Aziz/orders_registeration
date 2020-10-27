@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCourseDiplomaTable extends Migration
+class CreateRegestrationWaysTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,9 @@ class CreateCourseDiplomaTable extends Migration
      */
     public function up()
     {
-        Schema::create('course_diploma', function (Blueprint $table) {
+        Schema::create('regestration_ways', function (Blueprint $table) {
             $table->id();
-            $table->integer('course_id')->unsigned();
-            $table->integer('diploma_id')->unsigned();
-           
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -29,6 +27,6 @@ class CreateCourseDiplomaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('course_diploma');
+        Schema::dropIfExists('regestration_ways');
     }
 }

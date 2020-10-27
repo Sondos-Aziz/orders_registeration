@@ -9,8 +9,8 @@ class Diploma extends Model
     protected $fillable = [
         'name','orderFees','diplomaFees','orderFeesCurrancy_id','diplomaFeesCurrancy_id','diplomaType_id',
         'hour','meetingNoPerWeek','daysPerMeeting','target','Skills','fieldsOfGraduation','place','features',
-        'regRequirments','credits','intro','content','trainningCourse',
-        
+        'regRequirments','credits','intro','content','trainningCourse','initialDate','endDate'
+       
     ];
 
     public function orders(){
@@ -24,13 +24,12 @@ class Diploma extends Model
     public function users(){
         $this->belongsToMany('App\User');
     }
-
-    public function courses(){
-        $this->belongsToMany('App\Models\Course');
-    }
     
     public function targeGroups(){
         $this->belongsToMany('App\Models\TargetGroup');
     }
-
+    
+    public function communications(){
+        $this->hasMany('App\Models\Communication');
+    }
 }

@@ -16,6 +16,7 @@ class CreateDiplomasTable extends Migration
         Schema::create('diplomas', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->integer('parent_id')->nullable();            
             $table->double('orderFees');
             $table->double('diplomaFees');
             $table->integer('orderFeesCurrancy_id'); // Currancy table 
@@ -28,13 +29,18 @@ class CreateDiplomasTable extends Migration
             $table->longText('Skills');
             $table->longText('fieldsOfGraduation');
             $table->string('place');
-            $table->longText('features');
+            $table->longText('features')->nullable();
             $table->longText('regRequirments');
             $table->longText('credits'); //اللاعتمادات
+          
+            $table->timestamp('initialDate');
+            $table->timestamp('endDate');
+
+
             /* for course الدورات */
-            $table->longText('intro');
-            $table->longText('content');
-            $table->longText('trainningCourse');
+            $table->longText('intro')->nullable();
+            $table->longText('content')->nullable();
+            $table->longText('trainningCourse')->nullable();
           
             $table->timestamps();
         });

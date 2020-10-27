@@ -21,7 +21,7 @@ class User extends Authenticatable
         'email', 'password','firstName_ar','middleName_ar','lastName_ar','firstName_en','middleName_en','lastName_en',
         'slug_en','slug_ar','identity','dateOfBirth','currentJob_id','specialization_id','workplace',
         'mobile','mobileAlternative','familyType_id','neighborhoods_id','otherPlace',
-        'nationality','social_status_id','sex','individuals_no','placeOfBirth_id',
+        'nationality','social_status_id','sex','individuals_no','placeOfBirth_id','facebookUrl',
 
     ];
     /**
@@ -83,4 +83,13 @@ class User extends Authenticatable
     public function diplomes(){
         $this->belongsToMany('App\Models\Diploma');
     }
+
+    public function communications(){
+        $this->hasMany('App\Models\Communication');
+    }
+
+    public function actor_type(){
+        $this->hasOne('App\Models\ActorType');
+    }
+    
 }

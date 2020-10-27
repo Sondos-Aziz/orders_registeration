@@ -24,18 +24,24 @@ class CreateOrdersTable extends Migration
             $table->integer("paymentType_id"); // paymentType table 
             $table->integer("option1"); // diploma table 
             $table->integer("option2"); // diploma table 
-            $table->boolean("status"); 
+            $table->boolean("status")->default(0); // not confiremed from employee 
             $table->integer("employee_id");
             $table->date('from')->nullable();
             $table->date('to')->nullable();
             $table->integer("organiziation_id")->nullable(); // paymentType table 
             $table->integer("volunteering_id")->nullable(); // diploma table 
 
-            $table->date('reservationFeesDate');
+            $table->date('regestrationDate')->nullable(); ;// تاريخ التسجيل
+
+            $table->date('reservationFeesDate')->nullable();  //تاريخ الدفع 
             $table->double("reservationFees"); // currancy table 
             $table->integer("reservationFeesCurrancy_id"); // currancy table 
             $table->string("orderPaper"); 
             $table->string("notices"); 
+
+            $table->boolean("join")->default(0);  // not subscribes yet لم يحضر بعد  
+            $table->integer("orderNo");  // رقم السنة ورقم الطلب مع بعض 202044
+            $table->integer('regestrationWay_id');   // شركة والكتروني وايميل 
 
             $table->timestamps();
         });
