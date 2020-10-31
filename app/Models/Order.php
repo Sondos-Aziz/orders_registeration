@@ -11,6 +11,9 @@ class Order extends Model
         'option2', 'status', 'employee_id', 'paymentType_id',
         'from', 'to', 'organiziation_id', 'volunteering_id', 'reservationFeesDate', 'reservationFees',
         'reservationFeesCurrancy_id', 'orderPaper', 'notices',
+        'join','orderNo','regestrationWay_id',
+        'beforEx1','beforEx2','afterEx1','afterEx2','midTerm1','midTerm2','attendensNo','finalTerm',
+        'finalLap','finalTheoretical','totalMark','noticeForMarks','certificateNo','certificateDeliveryDate',
 
     ];
 
@@ -55,5 +58,9 @@ class Order extends Model
     public function organization()
     {
         $this->hasOne('App\Models\Organization');
+    }
+
+    public function exportFiles(){
+        
     }
 }

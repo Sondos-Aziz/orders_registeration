@@ -43,7 +43,7 @@ class CreateUsersTable extends Migration
              $table->integer('individuals_no')->nullable();   
              $table->integer('placeOfBirth_id')->nullable();    // CITY table
              $table->string('facebookUrl')->nullable();    // CITY table
-
+            $table->boolean('is_super');
             $table->rememberToken();
             $table->timestamps();
         });

@@ -19,20 +19,20 @@ class CreateDiplomaUserTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->integer('diploma_id')->unsigned();
 
-            $table->double('beforEx1')->unsigned()->nullable();
-            $table->double('beforEx2')->unsigned()->nullable();
-            $table->double('afterEx1')->unsigned()->nullable();
-            $table->double('afterEx2')->unsigned()->nullable();
-            $table->double('midTerm1')->unsigned()->nullable();
-            $table->double('midTerm2')->unsigned()->nullable();
-            $table->integer('attendensNo')->unsigned()->nullable();
-            $table->double('finalTerm')->unsigned()->nullable();
-            $table->double('finalLap')->unsigned()->nullable();
-            $table->double('finalTheoretical')->unsigned()->nullable();
-            $table->double('total')->unsigned()->nullable();
-            $table->text('notice')->unsigned()->nullable();
-            $table->integer('certificateNo')->unsigned()->nullable();
-            $table->timestamp('certificateDeliveryDate')->unsigned()->nullable();
+            // $table->unsignedDouble('beforEx1')->nullable();
+            // $table->unsignedDouble('beforEx2')->nullable();
+            // $table->unsignedDouble('afterEx1')->nullable();
+            // $table->unsignedDouble('afterEx2')->nullable();
+            // $table->unsignedDouble('midTerm1')->nullable();
+            // $table->unsignedDouble('midTerm2')->nullable();
+            // $table->integer('attendensNo')->unsigned()->nullable();
+            // $table->unsignedDouble('finalTerm')->nullable();
+            // $table->unsignedDouble('finalLap')->nullable();
+            // $table->unsignedDouble('finalTheoretical')->nullable();
+            // $table->unsignedDouble('totalMark')->nullable();
+            // $table->text('noticeForMarks')->nullable();
+            // $table->unsignedInteger('certificateNo')->nullable();
+            // $table->timestamp('certificateDeliveryDate')->nullable();
 
             $table->timestamps();
         });

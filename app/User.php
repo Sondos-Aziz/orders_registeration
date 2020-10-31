@@ -22,6 +22,7 @@ class User extends Authenticatable
         'slug_en','slug_ar','identity','dateOfBirth','currentJob_id','specialization_id','workplace',
         'mobile','mobileAlternative','familyType_id','neighborhoods_id','otherPlace',
         'nationality','social_status_id','sex','individuals_no','placeOfBirth_id','facebookUrl',
+        'is_super',
 
     ];
     /**

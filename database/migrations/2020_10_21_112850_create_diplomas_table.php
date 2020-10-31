@@ -34,7 +34,7 @@ class CreateDiplomasTable extends Migration
             $table->longText('credits'); //اللاعتمادات
           
             $table->timestamp('initialDate');
-            $table->timestamp('endDate');
+            $table->timestamp('endDate')->nullable();
 
 
             /* for course الدورات */
