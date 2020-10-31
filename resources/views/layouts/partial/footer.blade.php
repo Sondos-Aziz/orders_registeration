@@ -218,6 +218,7 @@
     <script src="{{asset('plugins/custom/tinymce/tinymce.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('plugins/custom/tinymce/themes/silver/theme.js')}}" type="text/javascript"></script>
     <script src="{{asset('plugins/custom/tinymce/themes/mobile/theme.js')}}" type="text/javascript"></script>
+    <script src="{{asset('plugins/custom/plugins/jquery-ui/jquery-ui.min.js')}}" type="text/javascript"></script>
 
     <!--end:: Vendor Plugins for custom pages -->
 

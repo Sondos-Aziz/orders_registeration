@@ -38,140 +38,79 @@
         <div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
             <div id="kt_aside_menu" class="kt-aside-menu " data-ktmenu-vertical="1" data-ktmenu-scroll="1" data-ktmenu-dropdown-timeout="500">
                 <ul class="kt-menu__nav ">
-                    <li class="kt-menu__item " aria-haspopup="true"><a href="index.html" class="kt-menu__link "><i class="kt-menu__link-icon flaticon-home"></i><span class="kt-menu__link-text">Dashboard</span></a></li>
+                    <li class="kt-menu__item " aria-haspopup="true"><a href="index.html" class="kt-menu__link "><i class="kt-menu__link-icon flaticon-home"></i><span class="kt-menu__link-text">الرئيسية </span></a></li>
                     <li class="kt-menu__section ">
-                        <h4 class="kt-menu__section-text">Custom</h4>
+                        <h4 class="kt-menu__section-text">لوحة التحكم </h4>
                         <i class="kt-menu__section-icon flaticon-more-v2"></i>
                     </li>
-                    <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-icon flaticon-web"></i><span class="kt-menu__link-text">Applications</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                    <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-icon flaticon-web"></i><span class="kt-menu__link-text">إدارة المستخدمين </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                         <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                             <ul class="kt-menu__subnav">
                                 <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Applications</span></span></li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Users</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Default</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-datatable.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Datatable</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-columns-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-columns-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/add-user.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Add User</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/edit-user.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Edit User</span></a></li>
-                                            <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Profile 1</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                                <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                                    <ul class="kt-menu__subnav">
-                                                        <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-1/overview.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Overview</span></a></li>
-                                                        <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-1/personal-information.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Personal Information</span></a></li>
-                                                        <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-1/account-information.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Account Information</span></a></li>
-                                                        <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-1/change-password.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Change Password</span></a></li>
-                                                        <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-1/email-settings.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Email Settings</span></a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Profile 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-3.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Profile 3</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/profile-4.html')}}"class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Profile 4</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Contacts</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/contacts/list-columns.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/contacts/list-datatable.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Datatable</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/contacts/view-contact.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">View Contact</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/contacts/add-contact.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Add Contact</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/contacts/edit-contact.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Edit Contact</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Chat</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/chat/private.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Private</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/chat/group.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Group</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/chat/popup.html')}}"class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Popup</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Projects</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/list-columns-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/list-columns-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/list-columns-3.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns 3</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/list-columns-4.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Columns 4</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/list-datatable.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">List - Datatable</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/view-project.html')}}"  class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">View Project</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/add-project.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Add Project</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/projects/edit-project.html')}}"  class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Edit Project</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Support Center</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/home-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Home 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/home-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Home 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/faq-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">FAQ 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/faq-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">FAQ 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/faq-3.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">FAQ 3</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/feedback.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Feedback</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/support-center/license.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">License</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Todo</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/todo/tasks.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Tasks</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/todo/docs.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Docs</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/todo/files.html')}}"  class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Files</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="kt-menu__item " aria-haspopup="true"><a href="custom/apps/inbox.html" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Inbox</span><span class="kt-menu__link-badge"><span class="kt-badge kt-badge--danger kt-badge--inline">new</span></span></a></li>
-                            </ul>
+                            
+                                <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة مستخدم </span></a></li>
+                                <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل المستخدمين  </span></a></li>
+                                 </ul>
                         </div>
                     </li>
-                    <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-icon flaticon-tabs"></i><span class="kt-menu__link-text">Pages</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+
+                    <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-icon flaticon-tabs"></i><span class="kt-menu__link-text"> إدارة الطلبات  </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                         <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                             <ul class="kt-menu__subnav">
                                 <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pages</span></span></li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Wizard</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إدارة طلبات التطوع </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                     <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                                         <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Wizard 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Wizard 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-3.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Wizard 3</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-4.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Wizard 4</span></a></li>
-                                        </ul>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة طلب تطوع </span></a></li>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل طلبات التطوع </span></a></li>
+                                             </ul>
                                     </div>
                                 </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Pricing Tables</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                              
+
+                                <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pages</span></span></li>
+                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إدارة طلبات التدريب  </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                     <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                                         <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/pricing/pricing-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Pricing Tables 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/pricing/pricing-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Pricing Tables 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/pricing/pricing-3.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Pricing Tables 3</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/pricing/pricing-4.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Pricing Tables 4</span></a></li>
-                                        </ul>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة طلب تدريب </span></a></li>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل طلبات التدريب </span></a></li>
+                                             </ul>
                                     </div>
                                 </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Invoices</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+
+                                <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pages</span></span></li>
+                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إدارة طلبات التوظيف </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                     <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                                         <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/invoices/invoice-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Invoice 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/invoices/invoice-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Invoice 2</span></a></li>
-                                        </ul>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة طلب توظيف  </span></a></li>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل طلبات التوظيف  </span></a></li>
+                                             </ul>
                                     </div>
                                 </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">FAQ</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+                                <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pages</span></span></li>
+                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إدارة طلبات الدبلومات  </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                     <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                                         <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/faq/faq-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">FAQ 1</span></a></li>
-                                        </ul>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة طلب دبلومة </span></a></li>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل طلبات البدلومات </span></a></li>
+                                             </ul>
                                     </div>
                                 </li>
+
+                                <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pages</span></span></li>
+                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إدارة طلبات الدورات  </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+                                        <ul class="kt-menu__subnav">
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة طلب دورة </span></a></li>
+                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/wizard/wizard-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل طلبات الدورات </span></a></li>
+                                             </ul>
+                                    </div>
+                                </li>
+
+
                                 <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">User Pages</span><span class="kt-menu__link-badge"><span class="kt-badge kt-badge--rounded kt-badge--brand">2</span></span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                     <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
                                         <ul class="kt-menu__subnav">
@@ -184,21 +123,38 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error Pages</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-                                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-                                        <ul class="kt-menu__subnav">
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/error/error-1.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error 1</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/error/error-2.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error 2</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/error/error-3.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error 3</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/error/error-4.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error 4</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/error/error-5.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error 5</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/pages/error/error-6.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">Error 6</span></a></li>
-                                        </ul>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                     </li>
+
+
+                    <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-icon flaticon-web"></i><span class="kt-menu__link-text">إدارة الزيارات والإتصالات  </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                        <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+                            <ul class="kt-menu__subnav">
+                                <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Applications</span></span></li>
+                            
+                                <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة اتصال  </span></a></li>
+                                <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">كل الاتصالات  </span></a></li>
+                                 </ul>
+                        </div>
+                    </li>
+
+                    <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-icon flaticon-web"></i><span class="kt-menu__link-text">إدارة الموظفين   </span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                        <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+                            <ul class="kt-menu__subnav">
+                                <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Applications</span></span></li>
+                            
+                                <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">إضافة موظف   </span></a></li>
+                                <li class="kt-menu__item " aria-haspopup="true"><a href="{{asset('custom/apps/user/list-default.html')}}" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span class="kt-menu__link-text">جميع الموظفين  </span></a></li>
+                                 </ul>
+                        </div>
+                    </li>
+
+
+
+
+
                     {{-- <li class="kt-menu__section ">
                         <h4 class="kt-menu__section-text">Layout</h4>
                         <i class="kt-menu__section-icon flaticon-more-v2"></i>
